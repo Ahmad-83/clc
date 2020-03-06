@@ -1,6 +1,5 @@
 import opr
 
-
 data = input("I`m Command Line Calculator\nI`m calculate mines/sum/devide/multiple with this pattern:\nnumber1 <opr> number2\nLet`s GO:\n")
 
 data = data.replace(" ","",data.count(" "))
@@ -20,11 +19,3 @@ number2 =int(data[oprIndex+1:])
 result = opr.calculator(number1,number2,data[oprIndex])
 
 print(result)
-
-
-
-
-
-
-
-
